@@ -72,7 +72,7 @@ if generate:
                 }
             )
 
-            result = response.json()
+            # result = response.json()
             st.write("Status Code:", response.status_code)
             st.write("Response Text:", response.text)
 
