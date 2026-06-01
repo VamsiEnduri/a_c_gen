@@ -74,7 +74,7 @@ if generate:
 
             # result = response.json()
             st.write("Status Code:", response.status_code)
-            st.write("Response Text:", response["content"])
+            st.write("Response Text:", response.json())
 
             st.success("Content Generated Successfully")
 
