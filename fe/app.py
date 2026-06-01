@@ -72,13 +72,13 @@ if generate:
                 }
             )
 
-            # result = response.json()
+            result = response.json()
             st.write("Status Code:", response.status_code)
             st.write("Response Text:", response.text)
 
-            # st.success("Content Generated Successfully")
+            st.success("Content Generated Successfully")
 
-            # st.subheader("Generated Content")
+            st.subheader("Generated Content")
 
             st.text_area(
                 "Output",
